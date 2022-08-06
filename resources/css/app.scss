@@ -1,0 +1,38 @@
+
+a.ReviewLinkContainer__Container-sc-1k1tx10-0.dcaWFY.ReviewPostedOn__StyledReviewLinkContainer-sc-1s508wm-0.kBiTQA.Card1__StyledReviewPostedOn-sc-1kzxb9z-8.cvTGPV {
+    display: none !important;
+}
+.mj-main-bg{
+background:linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+url(https://res.cloudinary.com/greenappletravel-ae/image/upload/c_scale,q_300,w_1280/v1650537166/pexels-photo-3885589_bad7pe.jpg);
+background-attachment: initial;
+background-size: cover;
+
+}
+.mj-theme-text ol, .mj-theme-text ul {
+    list-style: circle;
+    list-style-position: outside;
+    padding-left: 15px !important;
+}
+.glow-effect:hover{
+  box-shadow: 0px 0px 10px 0px green;
+}
+.overflow-no-show-mj {
+  -ms-overflow-style: none;  // Internet Explorer 10+
+  scrollbar-width: none;  // Firefox
+}
+.text-shadow-dark{text-shadow: 0px 0px 5px black;}
+.overflow-no-show-mj::-webkit-scrollbar {
+  /* This is the magic bit for WebKit */
+    width: 0px; /* For Chrome, Safari, and Opera */
+}
+.text-shadow{text-shadow: 0px 0px 5px white;}
+.bg-opacity-mj{
+  background-position: center top !important;
+  background-attachment: fixed !important;
+  background-size: cover !important;
+}
+::-webkit-scrollbar{width:5px;height:5px}
+::-webkit-scrollbar-track{background:hsla(0,0%,100%,.2)}
+::-webkit-scrollbar-thumb{background: green}
+::-webkit-scrollbar-thumb:hover{background:black}
